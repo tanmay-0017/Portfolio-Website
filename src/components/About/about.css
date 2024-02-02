@@ -1,0 +1,174 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aboutTitle { 
+    font-size: 3rem; 
+    font-weight: 600; 
+    padding-top: 3rem; 
+    margin-bottom: 1.5rem;
+    color: yellow;
+}
+
+.aboutDescription {
+    font-weight: 200; 
+    font-size: 1rem; 
+    max-width: 50rem; 
+    padding: 0 2rem;
+    letter-spacing: 1px;
+}
+
+.interests {
+    color: rgb(172, 216, 255);
+}
+
+
+.achievementsTitle {
+    font-size: 3rem; 
+    font-weight: 600; 
+    padding-top: 3rem; 
+    margin-top: 2rem;
+    color: yellow;
+}
+
+.achievementDescription {
+    padding: 1 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.ulclass{
+    margin: 0.75rem;
+}
+
+.achievementBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.achievementBar {
+    display: flex;
+    margin: 2rem;
+    padding: 1.5rem 2rem; 
+    border-radius: 0.5rem; 
+    background: rgb(50, 50, 50);
+}
+
+.achievementBarImg {
+    height: 8rem;
+    margin: auto 2rem;
+}
+
+@media screen and (max-width:720px) {
+    .aboutBarText>p { 
+        font-size: 2Vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .aboutBarText>p { 
+        font-size: 3vw;
+    }
+    .aboutBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .aboutBarText>h2 { 
+        font-size: 5vw;
+    }
+}
+
+div[class*=box] {
+	height: 33.33%;
+	width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1 {
+    margin-top: 2rem;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transition: all 0.3s;
+	background-color: #222;
+    border-radius: 10px;
+}
+.btn-one:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+.aclass {
+    color: white;
+}

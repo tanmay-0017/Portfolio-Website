@@ -1,0 +1,117 @@
+.educationTitle {
+    margin: 5rem 29rem;
+    margin-top: 10rem;
+    font-size: 2.7rem;
+    color: yellow;
+}
+
+.muiTimelineConnector {
+    position: absolute;
+    top: 50%;
+    left: 20px; 
+    width: 2px;
+    height: 100%;
+    transform: translateY(-50%);
+}
+
+.muiTimelineDot {
+    position: absolute;
+    top: 109%;
+    left: 17px; /* Adjust as needed */
+    bottom: 100px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(52, 146, 255);
+    transform: translateY(-50%);
+}
+  
+.educationAbout {
+    font-weight: 300; 
+    font-size: 1rem;
+    max-width: 50rem;
+    margin: -3rem auto 4rem auto;
+    font-size: 1rem;
+}
+
+.unorderedList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  .list {
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  
+  .list::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px; 
+    width: 5px;
+    height: 100%;
+    background-color: rgb(52, 146, 255); 
+  }
+  
+  .educationContent {
+    background-color: rgb(52, 52, 52);
+    max-width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .educationContent2 {
+    margin-left: 4rem;
+    justify-content: space-between;
+  }
+  
+  .educationContent3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img1 {
+    max-width: 4rem; 
+    margin-right: 1rem; 
+  }
+  .img2 {
+    height: 4.5rem;
+    margin-left: -2.2rem;
+    margin-right: -1rem; 
+  }
+  .img3 {
+    max-width: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .name {
+    font-size: 18px;
+    color: rgb(172, 216, 255);
+    font-weight: bold;
+  }
+  
+  .branch {
+    font-size: 16px;
+    color: rgb(202, 230, 255);
+  }
+  
+  .timeperiod {
+    font-size: 14px;
+    color: rgb(202, 230, 255);
+  }
+  
+  .grade {
+    margin-top: 10px;
+    color: blanchedalmond;
+  }
+  
+  .about {
+    font-size: 16px;
+    color: whitesmoke;
+  }
+  
