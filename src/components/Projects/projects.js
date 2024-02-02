@@ -24,6 +24,7 @@ const Projects = () => {
                     window.open("https://github.com/tanmay-0017/Supply-Chain-Management-CargoHive");
                 }}>GITHUB</button>
                 
+                
             </div>
             <div className='project' id = 'portfolio'>
                 <img src={portfolioImg} alt='Portfolio Img' className='projectsImg' />
