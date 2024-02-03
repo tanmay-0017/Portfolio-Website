@@ -34,7 +34,7 @@ const Projects = () => {
                     <li><b>Demonstrated Technical Proficiency : </b> Independently created a dynamic React.js portfolio, highlighting modern web development skills. Demonstrates ability to leverage cutting-edge technologies for effective solutions.</li>
                 </ul>
                 <button class="button-85" onClick={() => {
-                    window.open("https://github.com/tanmay-0017/Portfolio-Website");
+                    window.open("https://github.com/tanmay-0017/Portfolio-Website"); 
                 }}>GITHUB</button>
             </div>
             <div className='project'>
