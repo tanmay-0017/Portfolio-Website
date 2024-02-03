@@ -35,7 +35,6 @@ const Projects = () => {
                 </ul>
                 <button class="button-85" onClick={() => {
                     window.open("https://github.com/tanmay-0017/Portfolio-Website");
-
                 }}>GITHUB</button>
             </div>
             <div className='project'>
