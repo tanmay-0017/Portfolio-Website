@@ -58,7 +58,7 @@ const About = () => {
             <div className='achievementBar'>
                 <img src={dsaImg} alt='dsaImg' className='achievementBarImg'/>
                 <div className='achievementBarText'>
-                    <h2>Solved <span className='interests'>500+</span> DSA problems on Leetcode.</h2>
+                    <h2>Solved <span className='interests'>600+</span> DSA problems on Leetcode.</h2>
                     <br/>
                     <p>Solved conceptual Data Structures and Algorithm 500+ problems on Leetcode.</p>
                 </div>
